@@ -28,3 +28,5 @@ script:
 notifications:
   email:
    - revathi@shippable.com
+
+  irc:  "chat.freenode.net#test-irc"
