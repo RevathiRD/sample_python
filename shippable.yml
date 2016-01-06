@@ -10,8 +10,8 @@ python:
   - 3.5
   - pypy3
   - pypy
-#env:
-  #- FOO=foo
+env:
+  - FOO=foo
   #- BAR=bar
   #- TEST=test
 
