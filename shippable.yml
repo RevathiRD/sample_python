@@ -3,17 +3,21 @@ language: python
 python:
   - 2.6
   - 2.7
-  - 2.8
-  - 3.2
-  - 3.3
-  - 3.4
-  - 3.5
-  - pypy3
+  #- 2.8
+  #- 3.2
+  #- 3.3
+  #- 3.4
+  #- 3.5
+  #- pypy3
   - pypy
 env:
   - FOO=foo
-  #- BAR=bar
+  - BAR=bar
   #- TEST=test
+matrix:
+  exclude:
+    - python: "2.7"
+      env: BAR=bar
 
 install:
   #- pip install -r requirements.txt
