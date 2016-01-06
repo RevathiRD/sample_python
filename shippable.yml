@@ -18,12 +18,12 @@ matrix:
   exclude:
     - python: "2.6"
       env: BAR=bar
-matrix:
+
   include:
    - python: "3.5"
      env: TEST=test
      
-matrix:
+
   allow_failures:
    - python: "2.8"
      env: FOO=foo
