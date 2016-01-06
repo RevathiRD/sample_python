@@ -16,7 +16,7 @@ env:
   #- TEST=test
 matrix:
   exclude:
-    - python: "2.7"
+    - python: "2.6"
       env: BAR=bar
 matrix:
   include:
