@@ -11,6 +11,7 @@ python:
   #- pypy3
   - pypy
 env:
+ global:
   - FOO=foo
   - BAR=bar
   #- TEST=test
