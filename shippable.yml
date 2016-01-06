@@ -4,12 +4,16 @@ python:
   - 2.6
   - 2.7
   - 2.8
-  - 3.2
-  - 3.3
-  - 3.4
-  - 3.5
-  - pypy3
-  - pypy
+  #- 3.2
+  #- 3.3
+  #- 3.4
+  #- 3.5
+  #- pypy3
+  #- pypy
+env:
+  - FOO=foo
+  - BAR=bar
+  - TEST=test
 
 install:
   #- pip install -r requirements.txt
