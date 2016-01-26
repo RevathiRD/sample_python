@@ -4,12 +4,12 @@ build_image: drydock/u14pytall:tip
 python:
   - 2.6
   - 2.7
-  - 2.8
+  #- 2.8
   - 3.2
   - 3.3
   - 3.4
   - 3.5
-  - pypy3
+  #- pypy3
   - pypy
 #env:
   #- FOO=foo
